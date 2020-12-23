@@ -35,3 +35,9 @@ function expect(actual) {
     toBeGreaterThan(expected) {}
   }
 }
+// * How to encapsulate and isolate tests ?
+// As you see above, if an error throws, it stops testing the rest of them.
+// And although stack traces show which line throws the error, it isn't that directive.
+// => That's where a testing framework comes into play. 
+//    Testing framework ensures all the tests running in isolated and encapsulated, with more useful messages.
+//    => see testing-framework.js

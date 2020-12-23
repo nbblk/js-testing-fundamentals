@@ -12,6 +12,7 @@ test('subtract subtracts numbers', () => {
   expect(result).toBe(expected)
 })
 
+// * The encapsulated function which takes 'title' to details the intention and callback to run.
 function test(title, callback) {
   try {
     callback()
